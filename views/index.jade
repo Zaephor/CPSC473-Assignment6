@@ -1,5 +1,11 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  div(class="container")
+    h1= title
+    p Welcome to #{title}
+    div(class="container")
+      div(class="row")
+        each value,key in {player: "Player's choice",computer: "Computer chose",score: "Score" }
+          div(class="col-md-4",id=key)
+            h2= value

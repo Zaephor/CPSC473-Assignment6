@@ -2,6 +2,17 @@ doctype html
 html
   head
     title= title
+    link(rel='stylesheet', href='/stylesheets/bootstrap.min.css')
+    link(rel='stylesheet', href='/stylesheets/bootstrap-theme.min.css')
     link(rel='stylesheet', href='/stylesheets/style.css')
   body
+    block header
+      nav(class="navbar navbar-inverse")
+        div(class="container-fluid")
+          div(class="container-header")
+            span(class="navbar-brand") CPSC473-Assignment6
     block content
+    block footer
+    script(src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js")
+    script(src="/javascripts/bootstrap.min.js")
+    script(src="/javascripts/rpssl.js")
