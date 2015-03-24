@@ -1,4 +1,13 @@
 /* jshint browser: true, jquery: true, curly: true, eqeqeq: true, forin: true, immed: true, indent: 4, latedef: true, newcap: true, nonew: true, quotmark: double, strict: true, undef: true, unused: true */
+
+/***************************************
+ * CPSC473 Section 1 - Assignment 6
+ * Eric Donaldson + Kyle Meyerhardt
+ * ExpressJS version of ClientSide + ServerSide Rock Paper Scissors Lizard Spock game
+ * Sources: Assignment 1 nudge submission, https://gist.github.com/Zaephor/485b52c7ae860ed922bb, Assignments 3-4 submission, Mozzila Development Network, ExpressJS api pages
+ ***************************************
+ */
+
 var main = function () {
     "use strict";
 
